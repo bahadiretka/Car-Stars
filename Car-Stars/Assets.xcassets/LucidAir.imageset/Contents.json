@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "lucid-air-havada-elektrik-kokusu-var101.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "lucid-air-havada-elektrik-kokusu-var101@2x.jpeg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "lucid-air-havada-elektrik-kokusu-var101@3x.jpeg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
