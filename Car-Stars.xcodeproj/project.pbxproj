@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		797D9FDE2819E261009908AF /* CarModelLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797D9FDD2819E261009908AF /* CarModelLogic.swift */; };
+		797D9FED2819E3B2009908AF /* wrong_answer_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 797D9FEB2819E3B2009908AF /* wrong_answer_sound.mp3 */; };
+		797D9FEE2819E3B2009908AF /* correct_answer_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 797D9FEC2819E3B2009908AF /* correct_answer_sound.mp3 */; };
+		797D9FEF2819E4D2009908AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797D9FE72819E2D6009908AF /* LaunchScreen.storyboard */; };
+		797D9FF02819E4D4009908AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797D9FE92819E2D6009908AF /* Main.storyboard */; };
 		79F95D482819E0D000CA8ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F95D472819E0D000CA8ADB /* AppDelegate.swift */; };
 		79F95D4A2819E0D000CA8ADB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F95D492819E0D000CA8ADB /* SceneDelegate.swift */; };
 		79F95D4C2819E0D000CA8ADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F95D4B2819E0D000CA8ADB /* ViewController.swift */; };
-		79F95D4F2819E0D000CA8ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F95D4D2819E0D000CA8ADB /* Main.storyboard */; };
 		79F95D512819E0D100CA8ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F95D502819E0D100CA8ADB /* Assets.xcassets */; };
-		79F95D542819E0D100CA8ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F95D522819E0D100CA8ADB /* LaunchScreen.storyboard */; };
+		79F95D5E2819E18100CA8ADB /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F95D5D2819E18100CA8ADB /* CarModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		797D9FDD2819E261009908AF /* CarModelLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModelLogic.swift; sourceTree = "<group>"; };
+		797D9FE82819E2D6009908AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		797D9FEA2819E2D6009908AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		797D9FEB2819E3B2009908AF /* wrong_answer_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wrong_answer_sound.mp3; path = "../../../Documents/Car-Stars/Car-Stars/wrong_answer_sound.mp3"; sourceTree = "<group>"; };
+		797D9FEC2819E3B2009908AF /* correct_answer_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = correct_answer_sound.mp3; path = "../../../Documents/Car-Stars/Car-Stars/correct_answer_sound.mp3"; sourceTree = "<group>"; };
 		79F95D442819E0D000CA8ADB /* Car-Stars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car-Stars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F95D472819E0D000CA8ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79F95D492819E0D000CA8ADB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		79F95D4B2819E0D000CA8ADB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		79F95D4E2819E0D000CA8ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79F95D502819E0D100CA8ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		79F95D532819E0D100CA8ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79F95D552819E0D100CA8ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F95D5D2819E18100CA8ADB /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		797D9FE62819E2D6009908AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				797D9FE72819E2D6009908AF /* LaunchScreen.storyboard */,
+				797D9FE92819E2D6009908AF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		79F95D3B2819E0D000CA8ADB = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +73,34 @@
 		79F95D462819E0D000CA8ADB /* Car-Stars */ = {
 			isa = PBXGroup;
 			children = (
+				79F95D5F2819E18E00CA8ADB /* Model */,
 				79F95D472819E0D000CA8ADB /* AppDelegate.swift */,
 				79F95D492819E0D000CA8ADB /* SceneDelegate.swift */,
-				79F95D4B2819E0D000CA8ADB /* ViewController.swift */,
-				79F95D4D2819E0D000CA8ADB /* Main.storyboard */,
+				79F95D5B2819E13300CA8ADB /* Controller */,
+				797D9FE62819E2D6009908AF /* View */,
 				79F95D502819E0D100CA8ADB /* Assets.xcassets */,
-				79F95D522819E0D100CA8ADB /* LaunchScreen.storyboard */,
 				79F95D552819E0D100CA8ADB /* Info.plist */,
+				797D9FEC2819E3B2009908AF /* correct_answer_sound.mp3 */,
+				797D9FEB2819E3B2009908AF /* wrong_answer_sound.mp3 */,
 			);
 			path = "Car-Stars";
+			sourceTree = "<group>";
+		};
+		79F95D5B2819E13300CA8ADB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79F95D4B2819E0D000CA8ADB /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		79F95D5F2819E18E00CA8ADB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79F95D5D2819E18100CA8ADB /* CarModel.swift */,
+				797D9FDD2819E261009908AF /* CarModelLogic.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +161,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79F95D542819E0D100CA8ADB /* LaunchScreen.storyboard in Resources */,
+				797D9FED2819E3B2009908AF /* wrong_answer_sound.mp3 in Resources */,
+				797D9FF02819E4D4009908AF /* Main.storyboard in Resources */,
+				797D9FEF2819E4D2009908AF /* LaunchScreen.storyboard in Resources */,
+				797D9FEE2819E3B2009908AF /* correct_answer_sound.mp3 in Resources */,
 				79F95D512819E0D100CA8ADB /* Assets.xcassets in Resources */,
-				79F95D4F2819E0D000CA8ADB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797D9FDE2819E261009908AF /* CarModelLogic.swift in Sources */,
+				79F95D5E2819E18100CA8ADB /* CarModel.swift in Sources */,
 				79F95D4C2819E0D000CA8ADB /* ViewController.swift in Sources */,
 				79F95D482819E0D000CA8ADB /* AppDelegate.swift in Sources */,
 				79F95D4A2819E0D000CA8ADB /* SceneDelegate.swift in Sources */,
@@ -147,20 +187,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		79F95D4D2819E0D000CA8ADB /* Main.storyboard */ = {
+		797D9FE72819E2D6009908AF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				79F95D4E2819E0D000CA8ADB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		79F95D522819E0D100CA8ADB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79F95D532819E0D100CA8ADB /* Base */,
+				797D9FE82819E2D6009908AF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		797D9FE92819E2D6009908AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				797D9FEA2819E2D6009908AF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
